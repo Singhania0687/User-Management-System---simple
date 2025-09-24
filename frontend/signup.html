@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Hey ,Welcome to the Signup page ,We wish you a happy journey</h1>
+    <form id="signupData" >
+        <div style="align-items: center;">
+    <label for="fname">First Name: </label>
+    <input type="text" name="fname" id="fname" placeholder="Enter your first name" required><br>
+    <label for="lname">Last Name: </label>
+        <input type="text" name="lname" id="lname" placeholder="Enter your Last name" required><br>
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" placeholder="Enter your email" required><br>
+        <label for="passwd">Password</label>
+        <input type="password" name="passwd" id="passwd" placeholder="Enter your password" required><br>
+        <input type="submit" value="Submit" style="background-color: aquamarine;">
+        <input type="reset" value="Reset" style="background-color: rgb(215, 111, 111);">
+                <input type="button" value="Go to signin" style="background-color: lightgreen;" onclick="window.location.href='./signin.html'">
+                        <input type="button" value="Go to HomePage" style="background-color: rgb(225, 238, 144);" onclick="window.location.href='./user.html'">
+   
+        </div>
+ </form>
+   <script src="./signup.js"></script>
+</body>
+</html>
